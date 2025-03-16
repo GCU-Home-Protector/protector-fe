@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "com.example.daisy.app-merged_res-11:/mipmap-hdpi_daisy_icon.png.flat",
+        "source": "com.example.daisy.app-main-5:/mipmap-hdpi/daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.daisy.app-merged_res-11:/mipmap-xhdpi_daisy_icon.png.flat",
+        "source": "com.example.daisy.app-main-5:/mipmap-xhdpi/daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-xxhdpi_daisy_icon.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-xxhdpi\\daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "com.example.daisy.app-merged_res-11:/mipmap-mdpi_daisy_icon.png.flat",
+        "source": "com.example.daisy.app-main-5:/mipmap-mdpi/daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-hdpi_daisy_icon.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-hdpi\\daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-xxxhdpi_daisy_icon.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-xxxhdpi\\daisy_icon.png"
+    },
+    {
+        "merged": "com.example.daisy.app-merged_res-11:/mipmap-xxxhdpi_daisy_icon.png.flat",
+        "source": "com.example.daisy.app-main-5:/mipmap-xxxhdpi/daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-xhdpi_daisy_icon.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-xhdpi\\daisy_icon.png"
+    },
+    {
+        "merged": "com.example.daisy.app-merged_res-11:/mipmap-xxhdpi_daisy_icon.png.flat",
+        "source": "com.example.daisy.app-main-5:/mipmap-xxhdpi/daisy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-merged_res-11:\\mipmap-mdpi_daisy_icon.png.flat",
+        "source": "C:\\Users\\lapai\\.gradle\\daemon\\7.6.3\\com.example.daisy.app-main-5:\\mipmap-mdpi\\daisy_icon.png"
+    }
+]
