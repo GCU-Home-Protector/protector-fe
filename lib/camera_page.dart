@@ -99,39 +99,34 @@ class _CamState extends State<CamPage>{
 
   // 사용자가 보는 화면 - 카메라, 촬영버튼
   @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      body: FutureBuilder<void>(
-        future: _initializeControllerFuture,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.done){
-            return Stack(
-              children: [
-                CameraPreview(_camController),
-                Positioned(
-                  bottom: 40,
-                  left: 0,
-                  right: 0,
-                  child: Center(
-                    child: ElevatedButton(
-                      onPressed: _CapturePicture,
-                      style: ElevatedButton.styleFrom(
-                        minimumSize: const Size(150, 40),
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 30, vertical: 15,
-                        ),
-                        ),
-                        child: const Text("촬영하기"),
-                      ),
-                    ),
+Widget build(BuildContext context) {
+  return Scaffold(
+    body: FutureBuilder<void>(
+      future: _initializeControllerFuture,
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.done) {
+          return Column(
+            children: [
+              Expanded(child: CameraPreview(_camController)),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 40, top: 16),
+                child: ElevatedButton(
+                  onPressed: _CapturePicture,
+                  style: ElevatedButton.styleFrom(
+                    minimumSize: const Size(150, 40),
+                    padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                   ),
-              ],
-            );
-          } else {
-            return const Center(child: CircularProgressIndicator());
-          }
-        },
-      )
-    );
-  }
+                  child: const Text('촬영하기'),
+                ),
+              ),
+            ],
+          );
+        } else {
+          return const Center(child: CircularProgressIndicator());
+        }
+      },
+    ),
+  );
+}
+
 }
