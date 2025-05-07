@@ -64,7 +64,10 @@ class _CamState extends State<CamPage>{
 
         if (mounted){
           Navigator.push(
-            context, MaterialPageRoute(builder: (context) => RecomMusicPage()),
+            // base64 인코딩이 제대로 되었는지 확인하기 위해 RecomMusicPage에서 결과를 확인
+            context,
+            MaterialPageRoute(builder: (context) => RecomMusicPage(base64String: base64Img))
+            // context, MaterialPageRoute(builder: (context) => RecomMusicPage()),
           );
         }
       }
