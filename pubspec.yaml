@@ -41,9 +41,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
 
-  # google mlkit face detection
-  google_mlkit_face_detection: ^0.13.1
   image: ^4.0.17
+
+  # youtube 재생
+  youtube_player_flutter: 8.1.2
 
 dev_dependencies:
   flutter_test:
