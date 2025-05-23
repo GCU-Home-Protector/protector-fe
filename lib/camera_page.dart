@@ -53,19 +53,25 @@ class _CamState extends State<CamPage>{
   // 촬영 버튼 클릭 시 호출될 사진 촬영 및 저장 함수
   Future<void> _CapturePicture() async {
     try{
+      print("log: 카메라 대기");
       await _initializeControllerFuture;
+      print('log: 사진 촬영');
       final XFile image = await _camController.takePicture().timeout(Duration(seconds: 5));
       
       final File imageFile = File(image.path);
       // Base 64 인코딩 과정
       final bytes = await imageFile.readAsBytes();
       final base64Img = base64Encode(bytes);
+      print('log: 이미지 base64 인코딩 완료');
 
       // 백엔드에 이미지 전송 함수 호출 및 반환 받기
+      print('log: 백엔드 전송');
       final response = await _sendImageToBackend(base64Img);
       // await _sendImageToBackend(base64Img);
+      print('log: 백엔드 응답 도착 : $response');
 
       if (mounted){
+
         Navigator.push(
           context,
           MaterialPageRoute(
