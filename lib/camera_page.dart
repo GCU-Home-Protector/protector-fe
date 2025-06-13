@@ -66,7 +66,9 @@ class _CamState extends State<CamPage>{
 
       // 백엔드에 이미지 전송 함수 호출 및 반환 받기
       print('log: 백엔드 전송');
+      print('${base64Img}');
       final response = await _sendImageToBackend(base64Img);
+      
       // await _sendImageToBackend(base64Img);
       print('log: 백엔드 응답 도착 : $response');
 
